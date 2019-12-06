@@ -12,6 +12,8 @@
 </head>
 
 <body>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
     <header>
         <a class="tab" href="./templates/html/github.html">GitHub</a>
         <a class="tab" href="./templates/html/tweets.html">Twitter</a>
@@ -28,13 +30,24 @@
             </div>
         </article>
         <aside>
-            <p>"placeholder to add comment thread later"</p>
+            <div id="disqus_thread"></div>
+			<script>
+				var disqus_config = function () {
+					this.page.url = "http://52.55.232.167/";
+				};
+				(function() {
+					var d = document, s = d.createElement('script');
+					s.src = 'https://jodagito.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
         </aside>
     </main>
     <footer>
         Made by <a class="footer" rel="noopener noreferrer" href="https://twitter.com/@Jodagito" target="_blank">Daniel
         	Gil</a> for <a class="footer" rel="noopener noreferrer" href="https://www.holbertonschool.com" target="_blank">Holberton School</a>
-    </footer>
+	</footer>
 </body>
 
 </html>
