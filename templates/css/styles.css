@@ -24,6 +24,7 @@ aside{
 }
 a.tab:hover{
 	color: #EE0045;
+	text-decoration: underline;
 }
 a.footer:visited{
 	color: #EE0045;
