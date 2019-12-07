@@ -7,21 +7,42 @@
     <link href="../css/styles.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <script src="../js/behavior.js"></script>
     <title>Daniel Gil - Holberton Application</title>
+    <script src="../js/behavior.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body>
     <header>
+        <div id="buttons">
+            <a rel="noopener noreferrer" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"></a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+            </script>
+            <div id="fb-share" class="fb-share-button" data-href="http://52.55.232.167/index.html" data-layout="button" data-size="small">
+                <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F52.55.232.167%2Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"></a>
+            </div>
+            <a rel="noopener noreferrer" id="github-share" class="github-button" href="https://github.com/jodagito" data-color-scheme="no-preference: dark; light: dark; dark: dark;" aria-label="Follow @jodagito on GitHub">Start Following</a>
+        </div>
         <a class="tab" href="../../index.html">Index</a>
         <a class="tab" href="./github.html">GitHub</a>
         <a class="tab" href="./linkedin.html">LinkedIn</a>
+        <img id="night_mode" src="https://img.icons8.com/officel/30/000000/moon.png" alt="Night mode image">
+        <img id="day_mode" src="https://img.icons8.com/officel/30/000000/sun.png" alt="Day mode image">
     </header>
     <main>
         <article>
             <h1>This is my Twitter profile</h1>
-            <blockquote class="twitter-tweet" data-theme="dark" data-link-color="#FAB81E">
-                <p lang="en" dir="ltr"><a rel="noopener noreferrer" href="https://twitter.com/hashtag/Coffee?src=hash&amp;ref_src=twsrc%5Etfw">#Coffee</a> <a href="https://twitter.com/hashtag/WorkTime?src=hash&amp;ref_src=twsrc%5Etfw">#WorkTime</a> <a href="https://twitter.com/hashtag/Mondays?src=hash&amp;ref_src=twsrc%5Etfw">#Mondays</a>                    <a href="https://twitter.com/hashtag/Colombia?src=hash&amp;ref_src=twsrc%5Etfw">#Colombia</a> <a href="https://t.co/SAiukk5w9X">pic.twitter.com/SAiukk5w9X</a></p>&mdash; Daniel Gil (@Jodagito) <a href="https://twitter.com/Jodagito/status/1127952710362370048?ref_src=twsrc%5Etfw">May 13, 2019</a></blockquote>
+            <blockquote id="twitter-card" class="twitter-tweet" data-theme="dark" data-link-color="#FAB81E">
+                <p lang="en" dir="ltr">
+                    <a rel="noopener noreferrer" href="https://twitter.com/hashtag/Coffee?src=hash&amp;ref_src=twsrc%5Etfw"></a>
+                    <a href="https://twitter.com/hashtag/WorkTime?src=hash&amp;ref_src=twsrc%5Etfw"></a>
+                    <a href="https://twitter.com/hashtag/Mondays?src=hash&amp;ref_src=twsrc%5Etfw"></a>
+                    <a href="https://twitter.com/hashtag/Colombia?src=hash&amp;ref_src=twsrc%5Etfw"></a>
+                    <a href="https://t.co/SAiukk5w9X"></a>
+                </p>&mdash;
+                <a href="https://twitter.com/Jodagito/status/1127952710362370048?ref_src=twsrc%5Etfw"></a>
+            </blockquote>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </article>
         <aside>
